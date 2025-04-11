@@ -58,4 +58,18 @@ Resolve any conflicts
 1. Ensure your code adheres to the project's style and quality standards
 2. Update documentation if necessary
 3. Include appropriate tests for your changes
-4. Fill out the PR template completely-
+4. Fill out the PR template completely
+
+## Git Best Practices
+
+To maintain a clean and useful Git history:
+1. **Stay Focused**: Each branch should implement a single feature or fix
+2. **Commit Granularly**: Make small, focused commits that do one thing
+3. **Write Good Commit Messages**: 
+   - First line should be a concise summary (50 chars or less)
+   - Optionally followed by a blank line and more detailed explanation
+4. **Reference Issues**: Mention issue numbers in commit messages when applicable
+5. **Keep Branches Short-lived**: Complete and merge feature branches promptly
+6. **Avoid Direct Commits to Main**: Always work in a feature branch, even for small changes
+7. **Pull Before You Push**: Always pull the latest changes before pushing to avoid conflicts
+8. **Use Pull Requests**: Even as a solo developer, PRs create a review checkpoint
