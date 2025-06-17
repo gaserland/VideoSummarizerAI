@@ -1,0 +1,18 @@
+# config/performance_config.yaml
+processing:
+  max_parallel_workers: 4
+  gpu_enabled: true
+  batch_size: 
+    gpu: 32
+    cpu: 8
+  memory_limit: 0.8  # 80% of available memory
+
+optimization:
+  chunk_size: 60  # seconds
+  frame_extraction_interval: 1.0
+  audio_sample_rate: 16000
+  
+cache:
+  model_cache_size: 1000  # MB
+  temp_file_cleanup: true
+  cache_directory: "./cache"

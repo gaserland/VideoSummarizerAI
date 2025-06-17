@@ -1,0 +1,24 @@
+# settings.yaml
+video:
+  supported_formats: ['.mp4', '.avi', '.mov', '.mkv']
+  max_file_size: '2GB'
+  
+audio:
+  sample_rate: 16000
+  extraction_format: 'wav'
+  
+transcription:
+  languages: ['en', 'th']
+  confidence_threshold: 0.8
+  
+keyframes:
+  extraction_interval: 1.0
+  scene_threshold: 0.3
+  max_frames: 100
+  
+export:
+  formats:
+    audio: ['wav', 'mp3']
+    transcript: ['txt', 'srt', 'json']
+    keyframes: ['jpg', 'png']
+    summary: ['txt', 'html', 'json']
